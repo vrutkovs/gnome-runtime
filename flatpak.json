@@ -1,0 +1,5 @@
+{
+        "runtime": "org.fedoraproject.GnomePlatform",
+        "runtime-version": "27",
+        "sdk": "org.fedoraproject.GnomeSdk"
+}

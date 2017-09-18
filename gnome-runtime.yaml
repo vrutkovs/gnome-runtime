@@ -1,0 +1,120 @@
+document: modulemd
+version: 1
+data:
+  summary: GNOME Runtime
+  description: Test runtime for GNOME apps
+  license:
+    module:
+    - MIT
+  dependencies:
+    buildrequires:
+    requires:
+  profiles:
+    runtime:
+      rpms:
+        - basesystem
+        - bash
+        - fedora-release
+        - fedora-repos
+        - filesystem
+        - glibc
+        - glibc-langpack-en
+        - glibc-common
+        - libcrypt-nss
+        - libselinux
+        - libsepol
+        - ncurses-base
+        - ncurses-libs
+        - nss-softokn-freebl
+        - pcre
+        - setup
+        - tzdata
+    buildroot:
+      rpms:
+      - flatpak-rpm-macros
+      - flatpak-runtime-config
+  api:
+    rpms:
+      - basesystem
+      - bash
+      - fedora-release
+      - fedora-repos
+      - filesystem
+      - flatpak-rpm-macros
+      - flatpak-runtime-config
+      - glibc
+      - glibc-langpack-en
+      - glibc-common
+      - libcrypt-nss
+      - libselinux
+      - libsepol
+      - ncurses-base
+      - ncurses-libs
+      - nss-softokn-freebl
+      - pcre
+      - setup
+      - tzdata
+  components:
+    rpms:
+      basesystem:
+        rationale: ""
+        ref: f27
+      bash:
+        rationale: ""
+        ref: f27
+      fedora-release:
+        rationale: ""
+        ref: f27
+      fedora-repos:
+        rationale: ""
+        ref: f27
+      filesystem:
+        rationale: ""
+        ref: f27
+      flatpak-rpm-macros:
+        rationale: ""
+        ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
+      flatpak-runtime-config:
+        rationale: ""
+        ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
+      glibc:
+        rationale: ""
+        ref: f27
+      libselinux:
+        rationale: ""
+        ref: f27
+      libsepol:
+        rationale: ""
+        ref: f27
+      ncurses:
+        rationale: ""
+        ref: f27
+      nss-softokn:
+        rationale: ""
+        ref: f27
+      pcre:
+        rationale: ""
+        ref: f27
+      setup:
+        rationale: ""
+        ref: f27
+      tzdata:
+        rationale: ""
+        ref: f27
+  xmd:
+    fake-module:
+      import:
+        - basesystem
+        - bash
+        - fedora-release
+        - fedora-repos
+        - filesystem
+        - glibc
+        - libselinux
+        - libsepol
+        - ncurses
+        - nss-softokn
+        - pcre
+        - setup
+        - tzdata
+
