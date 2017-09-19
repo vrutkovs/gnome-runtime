@@ -12,54 +12,457 @@ data:
   profiles:
     runtime:
       rpms:
+        - abattis-cantarell-fonts
+        - acl
+        - adwaita-cursor-theme
+        - adwaita-gtk2-theme
+        - adwaita-icon-theme
+        - atk
+        - at-spi2-atk
+        - at-spi2-core
+        - autoconf
+        - automake
+        - avahi-libs
         - basesystem
         - bash
+        - bubblewrap
+        - cairo
+        - cairo-gobject
+        - cmake-filesystem
+        - colord-libs
+        - cryptopp
+        - cryptsetup-libs
+        - cups-libs
+        - dbus
+        - dbus-libs
+        - device-mapper
+        - device-mapper-libs
+        - emacs-filesystem
         - fedora-release
         - fedora-repos
         - filesystem
+        - fontconfig
+        - fontpackages-filesystem
+        - freetype
+        - gdk-pixbuf2
+        - gdk-pixbuf2-modules
+        - gettext-libs
         - glibc
-        - glibc-langpack-en
         - glibc-common
+        - glibc-langpack-en
+        - glib-networking
+        - gnome-desktop3
+        - gnome-themes-standard
+        - gobject-introspection
+        - graphite2
+        - groff-base
+        - gsettings-desktop-schemas
+        - gtk2
+        - gtk3
+        - gtk-update-icon-cache
+        - harfbuzz
+        - harfbuzz-icu
+        - hicolor-icon-theme
+        - iptables-libs
+        - jasper-libs
+        - jbigkit-libs
+        - json-glib
+        - kmod-libs
+        - lcms2
+        - libcroco
         - libcrypt-nss
+        - libdatrie
+        - libepoxy
+        - libexif
+        - libgcab1
+        - libgusb
+        - libicu
+        - libidn
+        - libjpeg-turbo
+        - libmodman
+        - libpcap
+        - libpeas
+        - libpeas-gtk
+        - libpng
+        - libproxy
+        - librsvg2
+        - libseccomp
         - libselinux
         - libsepol
+        - libsoup
+        - libstemmer
+        - libthai
+        - libtiff
+        - libtool
+        - libwayland-client
+        - libwayland-cursor
+        - libwayland-server
+        - libX11
+        - libX11-common
+        - libX11-xcb
+        - libXau
+        - libxcb
+        - libXcomposite
+        - libXcursor
+        - libXdamage
+        - libXext
+        - libXfixes
+        - libXft
+        - libXi
+        - libXinerama
+        - libxkbcommon
+        - libxkbcommon-x11
+        - libXrandr
+        - libXrender
+        - libXtst
+        - m4
+        - mesa-libwayland-egl
+        - mesa-libwayland-egl-devel
         - ncurses-base
         - ncurses-libs
         - nss-softokn-freebl
+        - openssl
+        - pango
         - pcre
+        - pcre-cpp
+        - pcre-utf16
+        - pcre-utf32
+        - perl-Carp
+        - perl-constant
+        - perl-Data-Dumper
+        - perl-Encode
+        - perl-Errno
+        - perl-Exporter
+        - perl-File-Path
+        - perl-File-Temp
+        - perl-Getopt-Long
+        - perl-HTTP-Tiny
+        - perl-interpreter
+        - perl-IO
+        - perl-libs
+        - perl-macros
+        - perl-MIME-Base64
+        - perl-parent
+        - perl-PathTools
+        - perl-Pod-Escapes
+        - perl-podlators
+        - perl-Pod-Perldoc
+        - perl-Pod-Simple
+        - perl-Pod-Usage
+        - perl-Scalar-List-Utils
+        - perl-Socket
+        - perl-Storable
+        - perl-Term-ANSIColor
+        - perl-Term-Cap
+        - perl-Text-ParseWords
+        - perl-Text-Tabs+Wrap
+        - perl-Thread-Queue
+        - perl-threads
+        - perl-threads-shared
+        - perl-Time-Local
+        - perl-Unicode-Normalize
+        - perl-XML-Parser
+        - pixman
+        - pycryptopp
+        - python2
+        - python2-asn1crypto
+        - python2-cffi
+        - python2-cryptography
+        - python2-idna
+        - python2-libs
+        - python2-markupsafe
+        - python2-paste
+        - python2-pip
+        - python2-ply
+        - python2-pycparser
+        - python2-pyOpenSSL
+        - python2-setuptools
+        - python2-six
+        - python-beaker
+        - python-enum34
+        - python-ipaddress
+        - python-libxml2
+        - python-mako
+        - python-tempita
+        - qrencode-libs
+        - rest
         - setup
+        - systemd
+        - systemd-pam
         - tzdata
+        - xkeyboard-config
+        - xml-common
     buildroot:
       rpms:
       - flatpak-rpm-macros
       - flatpak-runtime-config
   api:
     rpms:
+      - abattis-cantarell-fonts
+      - acl
+      - adwaita-cursor-theme
+      - adwaita-gtk2-theme
+      - adwaita-icon-theme
+      - atk
+      - at-spi2-atk
+      - at-spi2-core
+      - autoconf
+      - automake
+      - avahi-libs
       - basesystem
       - bash
+      - bubblewrap
+      - cairo
+      - cairo-gobject
+      - cmake-filesystem
+      - colord-libs
+      - cryptopp
+      - cryptsetup-libs
+      - cups-libs
+      - dbus
+      - dbus-libs
+      - device-mapper
+      - device-mapper-libs
+      - emacs-filesystem
       - fedora-release
       - fedora-repos
       - filesystem
-      - flatpak-rpm-macros
-      - flatpak-runtime-config
+      - fontconfig
+      - fontpackages-filesystem
+      - freetype
+      - gdk-pixbuf2
+      - gdk-pixbuf2-modules
+      - gettext-libs
       - glibc
-      - glibc-langpack-en
       - glibc-common
+      - glibc-langpack-en
+      - glib-networking
+      - gnome-desktop3
+      - gnome-themes-standard
+      - gobject-introspection
+      - graphite2
+      - groff-base
+      - gsettings-desktop-schemas
+      - gtk2
+      - gtk3
+      - gtk-update-icon-cache
+      - harfbuzz
+      - harfbuzz-icu
+      - hicolor-icon-theme
+      - iptables-libs
+      - jasper-libs
+      - jbigkit-libs
+      - json-glib
+      - kmod-libs
+      - lcms2
+      - libcroco
       - libcrypt-nss
+      - libdatrie
+      - libepoxy
+      - libexif
+      - libgcab1
+      - libgusb
+      - libicu
+      - libidn
+      - libjpeg-turbo
+      - libmodman
+      - libpcap
+      - libpeas
+      - libpeas-gtk
+      - libpng
+      - libproxy
+      - librsvg2
+      - libseccomp
       - libselinux
       - libsepol
+      - libsoup
+      - libstemmer
+      - libthai
+      - libtiff
+      - libtool
+      - libwayland-client
+      - libwayland-cursor
+      - libwayland-server
+      - libX11
+      - libX11-common
+      - libX11-xcb
+      - libXau
+      - libxcb
+      - libXcomposite
+      - libXcursor
+      - libXdamage
+      - libXext
+      - libXfixes
+      - libXft
+      - libXi
+      - libXinerama
+      - libxkbcommon
+      - libxkbcommon-x11
+      - libXrandr
+      - libXrender
+      - libXtst
+      - m4
+      - mesa-libwayland-egl
+      - mesa-libwayland-egl-devel
       - ncurses-base
       - ncurses-libs
       - nss-softokn-freebl
+      - openssl
+      - pango
       - pcre
+      - pcre-cpp
+      - pcre-utf16
+      - pcre-utf32
+      - perl-Carp
+      - perl-constant
+      - perl-Data-Dumper
+      - perl-Encode
+      - perl-Errno
+      - perl-Exporter
+      - perl-File-Path
+      - perl-File-Temp
+      - perl-Getopt-Long
+      - perl-HTTP-Tiny
+      - perl-interpreter
+      - perl-IO
+      - perl-libs
+      - perl-macros
+      - perl-MIME-Base64
+      - perl-parent
+      - perl-PathTools
+      - perl-Pod-Escapes
+      - perl-podlators
+      - perl-Pod-Perldoc
+      - perl-Pod-Simple
+      - perl-Pod-Usage
+      - perl-Scalar-List-Utils
+      - perl-Socket
+      - perl-Storable
+      - perl-Term-ANSIColor
+      - perl-Term-Cap
+      - perl-Text-ParseWords
+      - perl-Text-Tabs+Wrap
+      - perl-Thread-Queue
+      - perl-threads
+      - perl-threads-shared
+      - perl-Time-Local
+      - perl-Unicode-Normalize
+      - perl-XML-Parser
+      - pixman
+      - pycryptopp
+      - python2
+      - python2-asn1crypto
+      - python2-cffi
+      - python2-cryptography
+      - python2-idna
+      - python2-libs
+      - python2-markupsafe
+      - python2-paste
+      - python2-pip
+      - python2-ply
+      - python2-pycparser
+      - python2-pyOpenSSL
+      - python2-setuptools
+      - python2-six
+      - python-beaker
+      - python-enum34
+      - python-ipaddress
+      - python-libxml2
+      - python-mako
+      - python-tempita
+      - qrencode-libs
+      - rest
       - setup
+      - systemd
+      - systemd-pam
       - tzdata
+      - xkeyboard-config
+      - xml-common
+
   components:
     rpms:
+      flatpak-rpm-macros:
+        rationale: ""
+        ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
+      flatpak-runtime-config:
+        rationale: ""
+        ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
+      abattis-cantarell-fonts:
+        rationale: ""
+        ref: f27
+      acl:
+        rationale: ""
+        ref: f27
+      adwaita-cursor-theme:
+        rationale: ""
+        ref: f27
+      adwaita-gtk2-theme:
+        rationale: ""
+        ref: f27
+      adwaita-icon-theme:
+        rationale: ""
+        ref: f27
+      atk:
+        rationale: ""
+        ref: f27
+      at-spi2-atk:
+        rationale: ""
+        ref: f27
+      at-spi2-core:
+        rationale: ""
+        ref: f27
+      autoconf:
+        rationale: ""
+        ref: f27
+      automake:
+        rationale: ""
+        ref: f27
+      avahi-libs:
+        rationale: ""
+        ref: f27
       basesystem:
         rationale: ""
         ref: f27
       bash:
+        rationale: ""
+        ref: f27
+      bubblewrap:
+        rationale: ""
+        ref: f27
+      cairo:
+        rationale: ""
+        ref: f27
+      cairo-gobject:
+        rationale: ""
+        ref: f27
+      cmake-filesystem:
+        rationale: ""
+        ref: f27
+      colord-libs:
+        rationale: ""
+        ref: f27
+      cryptopp:
+        rationale: ""
+        ref: f27
+      cryptsetup-libs:
+        rationale: ""
+        ref: f27
+      cups-libs:
+        rationale: ""
+        ref: f27
+      dbus:
+        rationale: ""
+        ref: f27
+      dbus-libs:
+        rationale: ""
+        ref: f27
+      device-mapper:
+        rationale: ""
+        ref: f27
+      device-mapper-libs:
+        rationale: ""
+        ref: f27
+      emacs-filesystem:
         rationale: ""
         ref: f27
       fedora-release:
@@ -71,13 +474,142 @@ data:
       filesystem:
         rationale: ""
         ref: f27
-      flatpak-rpm-macros:
+      fontconfig:
         rationale: ""
-        ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
-      flatpak-runtime-config:
+        ref: f27
+      fontpackages-filesystem:
         rationale: ""
-        ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
+        ref: f27
+      freetype:
+        rationale: ""
+        ref: f27
+      gdk-pixbuf2:
+        rationale: ""
+        ref: f27
+      gdk-pixbuf2-modules:
+        rationale: ""
+        ref: f27
+      gettext-libs:
+        rationale: ""
+        ref: f27
       glibc:
+        rationale: ""
+        ref: f27
+      glibc-common:
+        rationale: ""
+        ref: f27
+      glibc-langpack-en:
+        rationale: ""
+        ref: f27
+      glib-networking:
+        rationale: ""
+        ref: f27
+      gnome-desktop3:
+        rationale: ""
+        ref: f27
+      gnome-themes-standard:
+        rationale: ""
+        ref: f27
+      gobject-introspection:
+        rationale: ""
+        ref: f27
+      graphite2:
+        rationale: ""
+        ref: f27
+      groff-base:
+        rationale: ""
+        ref: f27
+      gsettings-desktop-schemas:
+        rationale: ""
+        ref: f27
+      gtk2:
+        rationale: ""
+        ref: f27
+      gtk3:
+        rationale: ""
+        ref: f27
+      gtk-update-icon-cache:
+        rationale: ""
+        ref: f27
+      harfbuzz:
+        rationale: ""
+        ref: f27
+      harfbuzz-icu:
+        rationale: ""
+        ref: f27
+      hicolor-icon-theme:
+        rationale: ""
+        ref: f27
+      iptables-libs:
+        rationale: ""
+        ref: f27
+      jasper-libs:
+        rationale: ""
+        ref: f27
+      jbigkit-libs:
+        rationale: ""
+        ref: f27
+      json-glib:
+        rationale: ""
+        ref: f27
+      kmod-libs:
+        rationale: ""
+        ref: f27
+      lcms2:
+        rationale: ""
+        ref: f27
+      libcroco:
+        rationale: ""
+        ref: f27
+      libcrypt-nss:
+        rationale: ""
+        ref: f27
+      libdatrie:
+        rationale: ""
+        ref: f27
+      libepoxy:
+        rationale: ""
+        ref: f27
+      libexif:
+        rationale: ""
+        ref: f27
+      libgcab1:
+        rationale: ""
+        ref: f27
+      libgusb:
+        rationale: ""
+        ref: f27
+      libicu:
+        rationale: ""
+        ref: f27
+      libidn:
+        rationale: ""
+        ref: f27
+      libjpeg-turbo:
+        rationale: ""
+        ref: f27
+      libmodman:
+        rationale: ""
+        ref: f27
+      libpcap:
+        rationale: ""
+        ref: f27
+      libpeas:
+        rationale: ""
+        ref: f27
+      libpeas-gtk:
+        rationale: ""
+        ref: f27
+      libpng:
+        rationale: ""
+        ref: f27
+      libproxy:
+        rationale: ""
+        ref: f27
+      librsvg2:
+        rationale: ""
+        ref: f27
+      libseccomp:
         rationale: ""
         ref: f27
       libselinux:
@@ -86,34 +618,496 @@ data:
       libsepol:
         rationale: ""
         ref: f27
-      ncurses:
+      libsoup:
         rationale: ""
         ref: f27
-      nss-softokn:
+      libstemmer:
+        rationale: ""
+        ref: f27
+      libthai:
+        rationale: ""
+        ref: f27
+      libtiff:
+        rationale: ""
+        ref: f27
+      libtool:
+        rationale: ""
+        ref: f27
+      libwayland-client:
+        rationale: ""
+        ref: f27
+      libwayland-cursor:
+        rationale: ""
+        ref: f27
+      libwayland-server:
+        rationale: ""
+        ref: f27
+      libX11:
+        rationale: ""
+        ref: f27
+      libX11-common:
+        rationale: ""
+        ref: f27
+      libX11-xcb:
+        rationale: ""
+        ref: f27
+      libXau:
+        rationale: ""
+        ref: f27
+      libxcb:
+        rationale: ""
+        ref: f27
+      libXcomposite:
+        rationale: ""
+        ref: f27
+      libXcursor:
+        rationale: ""
+        ref: f27
+      libXdamage:
+        rationale: ""
+        ref: f27
+      libXext:
+        rationale: ""
+        ref: f27
+      libXfixes:
+        rationale: ""
+        ref: f27
+      libXft:
+        rationale: ""
+        ref: f27
+      libXi:
+        rationale: ""
+        ref: f27
+      libXinerama:
+        rationale: ""
+        ref: f27
+      libxkbcommon:
+        rationale: ""
+        ref: f27
+      libxkbcommon-x11:
+        rationale: ""
+        ref: f27
+      libXrandr:
+        rationale: ""
+        ref: f27
+      libXrender:
+        rationale: ""
+        ref: f27
+      libXtst:
+        rationale: ""
+        ref: f27
+      m4:
+        rationale: ""
+        ref: f27
+      mesa-libwayland-egl:
+        rationale: ""
+        ref: f27
+      mesa-libwayland-egl-devel:
+        rationale: ""
+        ref: f27
+      ncurses-base:
+        rationale: ""
+        ref: f27
+      ncurses-libs:
+        rationale: ""
+        ref: f27
+      nss-softokn-freebl:
+        rationale: ""
+        ref: f27
+      openssl:
+        rationale: ""
+        ref: f27
+      pango:
         rationale: ""
         ref: f27
       pcre:
         rationale: ""
         ref: f27
+      pcre-cpp:
+        rationale: ""
+        ref: f27
+      pcre-utf16:
+        rationale: ""
+        ref: f27
+      pcre-utf32:
+        rationale: ""
+        ref: f27
+      perl-Carp:
+        rationale: ""
+        ref: f27
+      perl-constant:
+        rationale: ""
+        ref: f27
+      perl-Data-Dumper:
+        rationale: ""
+        ref: f27
+      perl-Encode:
+        rationale: ""
+        ref: f27
+      perl-Errno:
+        rationale: ""
+        ref: f27
+      perl-Exporter:
+        rationale: ""
+        ref: f27
+      perl-File-Path:
+        rationale: ""
+        ref: f27
+      perl-File-Temp:
+        rationale: ""
+        ref: f27
+      perl-Getopt-Long:
+        rationale: ""
+        ref: f27
+      perl-HTTP-Tiny:
+        rationale: ""
+        ref: f27
+      perl-interpreter:
+        rationale: ""
+        ref: f27
+      perl-IO:
+        rationale: ""
+        ref: f27
+      perl-libs:
+        rationale: ""
+        ref: f27
+      perl-macros:
+        rationale: ""
+        ref: f27
+      perl-MIME-Base64:
+        rationale: ""
+        ref: f27
+      perl-parent:
+        rationale: ""
+        ref: f27
+      perl-PathTools:
+        rationale: ""
+        ref: f27
+      perl-Pod-Escapes:
+        rationale: ""
+        ref: f27
+      perl-podlators:
+        rationale: ""
+        ref: f27
+      perl-Pod-Perldoc:
+        rationale: ""
+        ref: f27
+      perl-Pod-Simple:
+        rationale: ""
+        ref: f27
+      perl-Pod-Usage:
+        rationale: ""
+        ref: f27
+      perl-Scalar-List-Utils:
+        rationale: ""
+        ref: f27
+      perl-Socket:
+        rationale: ""
+        ref: f27
+      perl-Storable:
+        rationale: ""
+        ref: f27
+      perl-Term-ANSIColor:
+        rationale: ""
+        ref: f27
+      perl-Term-Cap:
+        rationale: ""
+        ref: f27
+      perl-Text-ParseWords:
+        rationale: ""
+        ref: f27
+      perl-Text-Tabs+Wrap:
+        rationale: ""
+        ref: f27
+      perl-Thread-Queue:
+        rationale: ""
+        ref: f27
+      perl-threads:
+        rationale: ""
+        ref: f27
+      perl-threads-shared:
+        rationale: ""
+        ref: f27
+      perl-Time-Local:
+        rationale: ""
+        ref: f27
+      perl-Unicode-Normalize:
+        rationale: ""
+        ref: f27
+      perl-XML-Parser:
+        rationale: ""
+        ref: f27
+      pixman:
+        rationale: ""
+        ref: f27
+      pycryptopp:
+        rationale: ""
+        ref: f27
+      python2:
+        rationale: ""
+        ref: f27
+      python2-asn1crypto:
+        rationale: ""
+        ref: f27
+      python2-cffi:
+        rationale: ""
+        ref: f27
+      python2-cryptography:
+        rationale: ""
+        ref: f27
+      python2-idna:
+        rationale: ""
+        ref: f27
+      python2-libs:
+        rationale: ""
+        ref: f27
+      python2-markupsafe:
+        rationale: ""
+        ref: f27
+      python2-paste:
+        rationale: ""
+        ref: f27
+      python2-pip:
+        rationale: ""
+        ref: f27
+      python2-ply:
+        rationale: ""
+        ref: f27
+      python2-pycparser:
+        rationale: ""
+        ref: f27
+      python2-pyOpenSSL:
+        rationale: ""
+        ref: f27
+      python2-setuptools:
+        rationale: ""
+        ref: f27
+      python2-six:
+        rationale: ""
+        ref: f27
+      python-beaker:
+        rationale: ""
+        ref: f27
+      python-enum34:
+        rationale: ""
+        ref: f27
+      python-ipaddress:
+        rationale: ""
+        ref: f27
+      python-libxml2:
+        rationale: ""
+        ref: f27
+      python-mako:
+        rationale: ""
+        ref: f27
+      python-tempita:
+        rationale: ""
+        ref: f27
+      qrencode-libs:
+        rationale: ""
+        ref: f27
+      rest:
+        rationale: ""
+        ref: f27
       setup:
+        rationale: ""
+        ref: f27
+      systemd:
+        rationale: ""
+        ref: f27
+      systemd-pam:
         rationale: ""
         ref: f27
       tzdata:
         rationale: ""
         ref: f27
+      xkeyboard-config:
+        rationale: ""
+        ref: f27
+      xml-common:
+        rationale: ""
+        ref: f27
+
   xmd:
     fake-module:
       import:
+        - abattis-cantarell-fonts
+        - acl
+        - adwaita-cursor-theme
+        - adwaita-gtk2-theme
+        - adwaita-icon-theme
+        - atk
+        - at-spi2-atk
+        - at-spi2-core
+        - autoconf
+        - automake
+        - avahi-libs
         - basesystem
         - bash
+        - bubblewrap
+        - cairo
+        - cairo-gobject
+        - cmake-filesystem
+        - colord-libs
+        - cryptopp
+        - cryptsetup-libs
+        - cups-libs
+        - dbus
+        - dbus-libs
+        - device-mapper
+        - device-mapper-libs
+        - emacs-filesystem
         - fedora-release
         - fedora-repos
         - filesystem
+        - fontconfig
+        - fontpackages-filesystem
+        - freetype
+        - gdk-pixbuf2
+        - gdk-pixbuf2-modules
+        - gettext-libs
         - glibc
+        - glibc-common
+        - glibc-langpack-en
+        - glib-networking
+        - gnome-desktop3
+        - gnome-themes-standard
+        - gobject-introspection
+        - graphite2
+        - groff-base
+        - gsettings-desktop-schemas
+        - gtk2
+        - gtk3
+        - gtk-update-icon-cache
+        - harfbuzz
+        - harfbuzz-icu
+        - hicolor-icon-theme
+        - iptables-libs
+        - jasper-libs
+        - jbigkit-libs
+        - json-glib
+        - kmod-libs
+        - lcms2
+        - libcroco
+        - libcrypt-nss
+        - libdatrie
+        - libepoxy
+        - libexif
+        - libgcab1
+        - libgusb
+        - libicu
+        - libidn
+        - libjpeg-turbo
+        - libmodman
+        - libpcap
+        - libpeas
+        - libpeas-gtk
+        - libpng
+        - libproxy
+        - librsvg2
+        - libseccomp
         - libselinux
         - libsepol
-        - ncurses
-        - nss-softokn
+        - libsoup
+        - libstemmer
+        - libthai
+        - libtiff
+        - libtool
+        - libwayland-client
+        - libwayland-cursor
+        - libwayland-server
+        - libX11
+        - libX11-common
+        - libX11-xcb
+        - libXau
+        - libxcb
+        - libXcomposite
+        - libXcursor
+        - libXdamage
+        - libXext
+        - libXfixes
+        - libXft
+        - libXi
+        - libXinerama
+        - libxkbcommon
+        - libxkbcommon-x11
+        - libXrandr
+        - libXrender
+        - libXtst
+        - m4
+        - mesa-libwayland-egl
+        - mesa-libwayland-egl-devel
+        - ncurses-base
+        - ncurses-libs
+        - nss-softokn-freebl
+        - openssl
+        - pango
         - pcre
+        - pcre-cpp
+        - pcre-utf16
+        - pcre-utf32
+        - perl-Carp
+        - perl-constant
+        - perl-Data-Dumper
+        - perl-Encode
+        - perl-Errno
+        - perl-Exporter
+        - perl-File-Path
+        - perl-File-Temp
+        - perl-Getopt-Long
+        - perl-HTTP-Tiny
+        - perl-interpreter
+        - perl-IO
+        - perl-libs
+        - perl-macros
+        - perl-MIME-Base64
+        - perl-parent
+        - perl-PathTools
+        - perl-Pod-Escapes
+        - perl-podlators
+        - perl-Pod-Perldoc
+        - perl-Pod-Simple
+        - perl-Pod-Usage
+        - perl-Scalar-List-Utils
+        - perl-Socket
+        - perl-Storable
+        - perl-Term-ANSIColor
+        - perl-Term-Cap
+        - perl-Text-ParseWords
+        - perl-Text-Tabs+Wrap
+        - perl-Thread-Queue
+        - perl-threads
+        - perl-threads-shared
+        - perl-Time-Local
+        - perl-Unicode-Normalize
+        - perl-XML-Parser
+        - pixman
+        - pycryptopp
+        - python2
+        - python2-asn1crypto
+        - python2-cffi
+        - python2-cryptography
+        - python2-idna
+        - python2-libs
+        - python2-markupsafe
+        - python2-paste
+        - python2-pip
+        - python2-ply
+        - python2-pycparser
+        - python2-pyOpenSSL
+        - python2-setuptools
+        - python2-six
+        - python-beaker
+        - python-enum34
+        - python-ipaddress
+        - python-libxml2
+        - python-mako
+        - python-tempita
+        - qrencode-libs
+        - rest
         - setup
+        - systemd
+        - systemd-pam
         - tzdata
+        - xkeyboard-config
+        - xml-common
