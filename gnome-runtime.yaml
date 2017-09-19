@@ -58,19 +58,19 @@ data:
     rpms:
       basesystem:
         rationale: ""
-        ref: f26
+        ref: f27
       bash:
         rationale: ""
-        ref: f26
+        ref: f27
       fedora-release:
         rationale: ""
-        ref: f26
+        ref: f27
       fedora-repos:
         rationale: ""
-        ref: f26
+        ref: f27
       filesystem:
         rationale: ""
-        ref: f26
+        ref: f27
       flatpak-rpm-macros:
         rationale: ""
         ref: dca0bf1fdbdc1dfdf964884648b41df8e8eda4e4
@@ -79,28 +79,28 @@ data:
         ref: acf54cd0cda277c27546fcca751a5bd327d31ae5
       glibc:
         rationale: ""
-        ref: f26
+        ref: f27
       libselinux:
         rationale: ""
-        ref: f26
+        ref: f27
       libsepol:
         rationale: ""
-        ref: f26
+        ref: f27
       ncurses:
         rationale: ""
-        ref: f26
+        ref: f27
       nss-softokn:
         rationale: ""
-        ref: f26
+        ref: f27
       pcre:
         rationale: ""
-        ref: f26
+        ref: f27
       setup:
         rationale: ""
-        ref: f26
+        ref: f27
       tzdata:
         rationale: ""
-        ref: f26
+        ref: f27
   xmd:
     fake-module:
       import:
