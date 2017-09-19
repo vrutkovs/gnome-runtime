@@ -20,7 +20,7 @@ data:
         - at-spi2-core
         - autoconf
         - automake
-        - avahi-libs
+        - avahi
         - basesystem
         - bash
         - bubblewrap
@@ -204,7 +204,7 @@ data:
       - at-spi2-core
       - autoconf
       - automake
-      - avahi-libs
+      - avahi
       - basesystem
       - bash
       - bubblewrap
@@ -407,7 +407,7 @@ data:
       automake:
         rationale: ""
         ref: f27
-      avahi-libs:
+      avahi:
         rationale: ""
         ref: f27
       basesystem:
@@ -929,7 +929,7 @@ data:
         - at-spi2-core
         - autoconf
         - automake
-        - avahi-libs
+        - avahi
         - basesystem
         - bash
         - bubblewrap
