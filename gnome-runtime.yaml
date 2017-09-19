@@ -28,7 +28,7 @@ data:
         - cmake
         - colord
         - cryptopp
-        - cryptsetup-libs
+        - cryptsetup
         - cups-libs
         - dbus
         - dbus-libs
@@ -211,7 +211,7 @@ data:
       - cmake
       - colord
       - cryptopp
-      - cryptsetup-libs
+      - cryptsetup
       - cups-libs
       - dbus
       - dbus-libs
@@ -429,7 +429,7 @@ data:
       cryptopp:
         rationale: ""
         ref: f27
-      cryptsetup-libs:
+      cryptsetup:
         rationale: ""
         ref: f27
       cups-libs:
@@ -932,7 +932,7 @@ data:
         - cmake
         - colord
         - cryptopp
-        - cryptsetup-libs
+        - cryptsetup
         - cups-libs
         - dbus
         - dbus-libs
