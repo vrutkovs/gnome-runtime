@@ -25,7 +25,7 @@ data:
         - bash
         - bubblewrap
         - cairo
-        - cmake-filesystem
+        - cmake
         - colord-libs
         - cryptopp
         - cryptsetup-libs
@@ -208,7 +208,7 @@ data:
       - bash
       - bubblewrap
       - cairo
-      - cmake-filesystem
+      - cmake
       - colord-libs
       - cryptopp
       - cryptsetup-libs
@@ -420,7 +420,7 @@ data:
       cairo:
         rationale: ""
         ref: f27
-      cmake-filesystem:
+      cmake:
         rationale: ""
         ref: f27
       colord-libs:
@@ -929,7 +929,7 @@ data:
         - bash
         - bubblewrap
         - cairo
-        - cmake-filesystem
+        - cmake
         - colord-libs
         - cryptopp
         - cryptsetup-libs
