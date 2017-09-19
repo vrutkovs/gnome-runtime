@@ -14,7 +14,6 @@ data:
       rpms:
         - abattis-cantarell-fonts
         - acl
-        - adwaita-cursor-theme
         - adwaita-gtk2-theme
         - adwaita-icon-theme
         - atk
@@ -200,7 +199,6 @@ data:
     rpms:
       - abattis-cantarell-fonts
       - acl
-      - adwaita-cursor-theme
       - adwaita-gtk2-theme
       - adwaita-icon-theme
       - atk
@@ -391,9 +389,6 @@ data:
         rationale: ""
         ref: f27
       acl:
-        rationale: ""
-        ref: f27
-      adwaita-cursor-theme:
         rationale: ""
         ref: f27
       adwaita-gtk2-theme:
@@ -933,7 +928,6 @@ data:
       import:
         - abattis-cantarell-fonts
         - acl
-        - adwaita-cursor-theme
         - adwaita-gtk2-theme
         - adwaita-icon-theme
         - atk
