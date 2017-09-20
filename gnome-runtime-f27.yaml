@@ -302,6 +302,7 @@ data:
         - nss-util
         - binutils
         - libssh2
+        - publicsuffix-list-dafsa
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -598,6 +599,7 @@ data:
       - nss-util
       - binutils
       - libssh2
+      - publicsuffix-list-dafsa
 
   components:
     rpms:
@@ -1309,6 +1311,9 @@ data:
       libssh2:
         rationale: ""
         ref: f27
+      publicsuffix-list:
+        rationale: ""
+        ref: f27
   xmd:
     fake-module:
       import:
@@ -1546,3 +1551,4 @@ data:
         - nss-util
         - binutils
         - libssh2
+        - publicsuffix-list
