@@ -257,6 +257,7 @@ data:
         - gc
         - krb5-libs
         - color-filesystem
+        - tar
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -508,6 +509,7 @@ data:
       - gc
       - krb5-libs
       - color-filesystem
+      - tar
 
   components:
     rpms:
@@ -1117,6 +1119,9 @@ data:
       color-filesystem:
         rationale: ""
         ref: f27
+      tar:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1321,3 +1326,4 @@ data:
         - gc
         - krb5
         - color-filesystem
+        - tar
