@@ -296,6 +296,7 @@ data:
         - nspr
         - libverto
         - libsigsegv
+        - libmpc
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -586,6 +587,7 @@ data:
       - nspr
       - libverto
       - libsigsegv
+      - libmpc
 
   components:
     rpms:
@@ -1279,6 +1281,9 @@ data:
       libsigsegv:
         rationale: ""
         ref: f27
+      libmpc:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1511,3 +1516,4 @@ data:
         - nspr
         - libverto
         - libsigsegv
+        - libmpc
