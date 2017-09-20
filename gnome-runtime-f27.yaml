@@ -248,6 +248,7 @@ data:
         - lz4-libs
         - make
         - rpm
+        - rpm-libs
         - findutils
         - libblkid
         - cracklib
@@ -537,6 +538,7 @@ data:
       - lz4-libs
       - make
       - rpm
+      - rpm-libs
       - findutils
       - libblkid
       - cracklib
