@@ -306,6 +306,7 @@ data:
         - libssh2
         - publicsuffix-list-dafsa
         - cpp
+        - cyrus-sasl-lib
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -606,6 +607,7 @@ data:
       - libssh2
       - publicsuffix-list-dafsa
       - cpp
+      - cyrus-sasl-lib
 
   components:
     rpms:
@@ -1326,6 +1328,9 @@ data:
       cpp:
         rationale: ""
         ref: f27
+      cyrus-sasl:
+        rationale: ""
+        ref: f27
   xmd:
     fake-module:
       import:
@@ -1566,3 +1571,4 @@ data:
         - libssh2
         - publicsuffix-list
         - cpp
+        - cyrus-sasl
