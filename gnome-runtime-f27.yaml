@@ -270,6 +270,7 @@ data:
         - libgudev
         - libfdisk
         - libidn2
+        - libcom_err
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -534,6 +535,7 @@ data:
       - libgudev
       - libfdisk
       - libidn2
+      - libcom_err
 
   components:
     rpms:
@@ -1170,6 +1172,9 @@ data:
       libidn2:
         rationale: ""
         ref: f27
+      e2fsprogs:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1383,3 +1388,4 @@ data:
         - curl
         - libgudev
         - libidn2
+        - e2fsprogs
