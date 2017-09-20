@@ -278,6 +278,7 @@ data:
         - jsoncpp
         - guile
         - polkit-libs
+        - gawk
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -550,6 +551,7 @@ data:
       - jsoncpp
       - guile
       - polkit-libs
+      - gawk
 
   components:
     rpms:
@@ -1201,6 +1203,9 @@ data:
       polkit:
         rationale: ""
         ref: f27
+      gawk:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1419,3 +1424,4 @@ data:
         - jsoncpp
         - guile
         - polkit
+        - gawk
