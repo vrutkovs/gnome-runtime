@@ -49,6 +49,7 @@ data:
         - gdk-pixbuf2
         - gdk-pixbuf2-modules
         - gettext-libs
+        - gcc
         - libgcc
         - libstdc++
         - adwaita-gtk2-theme
@@ -318,6 +319,7 @@ data:
       - gdk-pixbuf2
       - gdk-pixbuf2-modules
       - gettext-libs
+      - gcc
       - libgcc
       - libstdc++
       - adwaita-gtk2-theme
