@@ -239,6 +239,7 @@ data:
         - libpwquality
         - sqlite-libs
         - make
+        - rpm
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -472,6 +473,7 @@ data:
       - libpwquality
       - sqlite-libs
       - make
+      - rpm
 
   components:
     rpms:
@@ -1036,6 +1038,9 @@ data:
       make:
         rationale: ""
         ref: f27
+      rpm:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1225,3 +1230,4 @@ data:
         - libpwquality
         - sqlite
         - make
+        - rpm
