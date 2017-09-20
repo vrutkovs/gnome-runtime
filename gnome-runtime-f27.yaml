@@ -818,7 +818,7 @@ data:
       python-tempita:
         rationale: ""
         ref: f27
-      python-qrencode:
+      qrencode:
         rationale: ""
         ref: f27
       rest:
@@ -988,7 +988,7 @@ data:
         - libxml2
         - python-mako
         - python-tempita
-        - python-qrencode
+        - qrencode
         - rest
         - setup
         - systemd
