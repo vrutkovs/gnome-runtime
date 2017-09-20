@@ -240,6 +240,7 @@ data:
         - sqlite-libs
         - make
         - rpm
+        - findutils
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -474,6 +475,7 @@ data:
       - sqlite-libs
       - make
       - rpm
+      - findutils
 
   components:
     rpms:
@@ -1041,6 +1043,9 @@ data:
       rpm:
         rationale: ""
         ref: f27
+      findutils:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1231,3 +1236,4 @@ data:
         - sqlite
         - make
         - rpm
+        - findutils
