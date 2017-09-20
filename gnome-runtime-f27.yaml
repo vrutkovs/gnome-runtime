@@ -225,6 +225,7 @@ data:
         - gnutls
         - util-linux
         - libusbx
+        - pam
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -444,6 +445,7 @@ data:
       - gnutls
       - util-linux
       - libusbx
+      - pam
 
   components:
     rpms:
@@ -984,6 +986,9 @@ data:
       libusbx:
         rationale: ""
         ref: f27
+      pam:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1165,3 +1170,4 @@ data:
         - gnutls
         - util-linux
         - libusbx
+        - pam
