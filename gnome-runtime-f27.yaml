@@ -126,6 +126,7 @@ data:
         - nss-softokn-freebl
         - openssl
         - pango
+        - pcre2
         - pcre
         - pcre-cpp
         - pcre-utf16
@@ -323,6 +324,7 @@ data:
       - nss-softokn-freebl
       - openssl
       - pango
+      - pcre2
       - pcre
       - pcre-cpp
       - pcre-utf16
@@ -696,6 +698,9 @@ data:
       perl:
         rationale: ""
         ref: f27
+      pcre2:
+        rationale: ""
+        ref: f27
       pcre:
         rationale: ""
         ref: f27
@@ -989,6 +994,7 @@ data:
         - openssl
         - pango
         - perl
+        - pcre2
         - pcre
         - perl-Carp
         - perl-constant
