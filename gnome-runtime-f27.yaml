@@ -287,6 +287,7 @@ data:
         - rhash
         - openldap
         - libutempter
+        - keyutils-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -568,6 +569,7 @@ data:
       - rhash
       - openldap
       - libutempter
+      - keyutils-libs
 
   components:
     rpms:
@@ -1237,6 +1239,9 @@ data:
       libutempter:
         rationale: ""
         ref: f27
+      keyutils:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1461,3 +1466,4 @@ data:
         - rhash
         - openldap
         - libutempter
+        - keyutils
