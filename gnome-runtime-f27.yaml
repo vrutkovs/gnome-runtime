@@ -252,6 +252,7 @@ data:
         - libunistring
         - libtasn1
         - libdb
+        - libdaemon
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -498,6 +499,7 @@ data:
       - libunistring
       - libtasn1
       - libdb
+      - libdaemon
 
   components:
     rpms:
@@ -1092,6 +1094,9 @@ data:
       libdb:
         rationale: ""
         ref: f27
+      libdaemon:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1291,3 +1296,4 @@ data:
         - libunistring
         - libtasn1
         - libdb
+        - libdaemon
