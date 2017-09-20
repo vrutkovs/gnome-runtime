@@ -224,6 +224,7 @@ data:
         - libgcrypt
         - gnutls
         - util-linux
+        - libusbx
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -442,6 +443,7 @@ data:
       - libgcrypt
       - gnutls
       - util-linux
+      - libusbx
 
   components:
     rpms:
@@ -979,6 +981,9 @@ data:
       util-linux:
         rationale: ""
         ref: f27
+      libusbx:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1159,3 +1164,4 @@ data:
         - libgcrypt
         - gnutls
         - util-linux
+        - libusbx
