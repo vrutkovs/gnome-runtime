@@ -190,6 +190,7 @@ data:
         - tzdata
         - xkeyboard-config
         - xml-common
+        - libffi
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -374,6 +375,7 @@ data:
       - tzdata
       - xkeyboard-config
       - xml-common
+      - libffi
 
   components:
     rpms:
@@ -839,6 +841,9 @@ data:
       sgml-common:
         rationale: ""
         ref: f27
+      libffi:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -995,3 +1000,4 @@ data:
         - tzdata
         - xkeyboard-config
         - sgml-common
+        - libffi
