@@ -286,6 +286,7 @@ data:
         - isl
         - rhash
         - openldap
+        - libutempter
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -566,6 +567,7 @@ data:
       - isl
       - rhash
       - openldap
+      - libutempter
 
   components:
     rpms:
@@ -1232,6 +1234,9 @@ data:
       openldap:
         rationale: ""
         ref: f27
+      libutempter:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1455,3 +1460,4 @@ data:
         - isl
         - rhash
         - openldap
+        - libutempter
