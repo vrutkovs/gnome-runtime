@@ -132,6 +132,7 @@ data:
         - ncurses
         - ncurses-base
         - ncurses-libs
+        - nss-softokn
         - nss-softokn-freebl
         - openssl
         - pango
@@ -436,6 +437,7 @@ data:
       - ncurses
       - ncurses-base
       - ncurses-libs
+      - nss-softokn
       - nss-softokn-freebl
       - openssl
       - pango
