@@ -240,6 +240,7 @@ data:
         - make
         - rpm
         - findutils
+        - libblkid
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -474,6 +475,7 @@ data:
       - make
       - rpm
       - findutils
+      - libblkid
 
   components:
     rpms:
