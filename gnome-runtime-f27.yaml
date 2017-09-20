@@ -234,6 +234,7 @@ data:
         - libcap-ng
         - libattr
         - libgomp
+        - libmount
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -462,6 +463,7 @@ data:
       - libcap-ng
       - libattr
       - libgomp
+      - libmount
 
   components:
     rpms:
