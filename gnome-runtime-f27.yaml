@@ -257,6 +257,7 @@ data:
         - libunistring
         - libtasn1
         - libdb
+        - libdb-utils
         - libdaemon
         - libarchive
         - gc
@@ -531,6 +532,7 @@ data:
       - libunistring
       - libtasn1
       - libdb
+      - libdb-utils
       - libdaemon
       - libarchive
       - gc
