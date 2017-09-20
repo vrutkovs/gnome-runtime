@@ -213,6 +213,7 @@ data:
         - libpkgconf
         - pkgconf-m4
         - coreutils
+        - coreutils-common
         - gdbm
         - sed
         - libxml2
@@ -473,6 +474,7 @@ data:
       - libpkgconf
       - pkgconf-m4
       - coreutils
+      - coreutils-common
       - gdbm
       - sed
       - popt
