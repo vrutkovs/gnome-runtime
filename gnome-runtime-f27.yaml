@@ -203,6 +203,7 @@ data:
         - ca-certificates
         - systemd-libs
         - pkgconf-pkg-config
+        - coreutils
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -401,6 +402,7 @@ data:
       - ca-certificates
       - systemd-libs
       - pkgconf-pkg-config
+      - coreutils
 
   components:
     rpms:
@@ -893,6 +895,9 @@ data:
       pkgconf:
         rationale: ""
         ref: f27
+      coreutils:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1059,3 +1064,4 @@ data:
         - zlib
         - ca-certificates
         - pkgconf
+        - coreutils
