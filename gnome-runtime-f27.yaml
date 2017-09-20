@@ -301,7 +301,7 @@ data:
         - libmpc
         - libpsl
         - nss
-        - nss-sys-init
+        - nss-sysinit
         - nss-util
         - nss-pem
         - binutils
@@ -604,7 +604,7 @@ data:
       - libmpc
       - libpsl
       - nss
-      - nss-sys-init
+      - nss-sysinit
       - nss-util
       - nss-pem
       - binutils
