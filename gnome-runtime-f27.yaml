@@ -255,6 +255,7 @@ data:
         - libdaemon
         - libarchive
         - gc
+        - krb5-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -504,6 +505,7 @@ data:
       - libdaemon
       - libarchive
       - gc
+      - krb5-libs
 
   components:
     rpms:
@@ -1107,6 +1109,9 @@ data:
       gc:
         rationale: ""
         ref: f27
+      krb5:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1309,3 +1314,4 @@ data:
         - libdaemon
         - libarchive
         - gc
+        - krb5
