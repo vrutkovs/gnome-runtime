@@ -101,6 +101,7 @@ data:
         - libtiff
         - libtool
         - libwayland-client
+        - libwayland-client-devel
         - libwayland-cursor
         - libwayland-server
         - libX11
@@ -324,6 +325,7 @@ data:
       - libtiff
       - libtool
       - libwayland-client
+      - libwayland-client-devel
       - libwayland-cursor
       - libwayland-server
       - libX11
