@@ -21,6 +21,7 @@ data:
         - autoconf
         - automake
         - avahi
+        - avahi-libs
         - basesystem
         - bash
         - bubblewrap
@@ -252,6 +253,7 @@ data:
       - autoconf
       - automake
       - avahi
+      - avahi-libs
       - basesystem
       - bash
       - bubblewrap
