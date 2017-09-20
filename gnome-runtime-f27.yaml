@@ -214,6 +214,7 @@ data:
         - crypto-policies
         - libacl
         - grep
+        - bzip2-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -422,6 +423,7 @@ data:
       - crypto-policies
       - libacl
       - grep
+      - bzip2-libs
 
   components:
     rpms:
@@ -938,6 +940,9 @@ data:
       grep:
         rationale: ""
         ref: f27
+      bzip2:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1111,3 +1116,4 @@ data:
         - crypto-policies
         - acl
         - grep
+        - bzip2
