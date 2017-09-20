@@ -201,6 +201,7 @@ data:
         - zlib
         - ca-certificates
         - systemd-libs
+        - pkgconf-pkg-config
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -397,6 +398,7 @@ data:
       - zlib
       - ca-certificates
       - systemd-libs
+      - pkgconf-pkg-config
 
   components:
     rpms:
@@ -883,6 +885,9 @@ data:
       ca-certificates:
         rationale: ""
         ref: f27
+      pkgconf:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1047,3 +1052,4 @@ data:
         - libffi
         - zlib
         - ca-certificates
+        - pkgconf
