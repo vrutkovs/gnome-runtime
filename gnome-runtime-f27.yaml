@@ -259,6 +259,7 @@ data:
         - color-filesystem
         - tar
         - nettle
+        - elfutils-libelf
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -512,6 +513,7 @@ data:
       - color-filesystem
       - tar
       - nettle
+      - elfutils-libelf
 
   components:
     rpms:
@@ -1127,6 +1129,9 @@ data:
       nettle:
         rationale: ""
         ref: f27
+      elfutils:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1333,3 +1338,4 @@ data:
         - color-filesystem
         - tar
         - nettle
+        - elfutils
