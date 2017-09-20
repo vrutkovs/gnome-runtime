@@ -276,6 +276,7 @@ data:
         - libatomic_ops
         - jsoncpp
         - guile
+        - polkit-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -546,6 +547,7 @@ data:
       - libatomic_ops
       - jsoncpp
       - guile
+      - polkit-libs
 
   components:
     rpms:
@@ -1194,6 +1196,9 @@ data:
       guile:
         rationale: ""
         ref: f27
+      polkit:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1411,3 +1416,4 @@ data:
         - libatomic_ops
         - jsoncpp
         - guile
+        - polkit
