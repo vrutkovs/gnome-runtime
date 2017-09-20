@@ -266,6 +266,7 @@ data:
         - chkconfig
         - libsemanage
         - gzip
+        - curl
         - libcurl
         - libgudev
         - libfdisk
@@ -532,6 +533,7 @@ data:
       - chkconfig
       - libsemanage
       - gzip
+      - curl
       - libcurl
       - libgudev
       - libfdisk
