@@ -27,7 +27,7 @@ data:
         - bubblewrap
         - cairo
         - cairo-gobject
-        - cmake
+        - cmake-filesystem
         - colord
         - cryptopp
         - cryptsetup
@@ -318,7 +318,7 @@ data:
       - bubblewrap
       - cairo
       - cairo-gobject
-      - cmake
+      - cmake-filesystem
       - colord
       - cryptopp
       - cryptsetup
