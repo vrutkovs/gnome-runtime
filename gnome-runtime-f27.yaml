@@ -288,6 +288,7 @@ data:
         - openldap
         - libutempter
         - keyutils-libs
+        - mpfr
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -570,6 +571,7 @@ data:
       - openldap
       - libutempter
       - keyutils-libs
+      - mpfr
 
   components:
     rpms:
@@ -1242,6 +1244,9 @@ data:
       keyutils:
         rationale: ""
         ref: f27
+      mpfr:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1467,3 +1472,4 @@ data:
         - openldap
         - libutempter
         - keyutils
+        - mpfr
