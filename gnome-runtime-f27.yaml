@@ -227,6 +227,7 @@ data:
         - util-linux
         - libusbx
         - pam
+        - shared-mime-info
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -448,6 +449,7 @@ data:
       - util-linux
       - libusbx
       - pam
+      - shared-mime-info
 
   components:
     rpms:
@@ -991,6 +993,9 @@ data:
       pam:
         rationale: ""
         ref: f27
+      shared-mime-info:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1173,3 +1178,4 @@ data:
         - util-linux
         - libusbx
         - pam
+        - shared-mime-info
