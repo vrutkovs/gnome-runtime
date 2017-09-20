@@ -238,6 +238,7 @@ data:
         - libmount
         - libpwquality
         - sqlite-libs
+        - make
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -470,6 +471,7 @@ data:
       - libmount
       - libpwquality
       - sqlite-libs
+      - make
 
   components:
     rpms:
@@ -1031,6 +1033,9 @@ data:
       sqlite:
         rationale: ""
         ref: f27
+      make:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1219,3 +1224,4 @@ data:
         - attr
         - libpwquality
         - sqlite
+        - make
