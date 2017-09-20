@@ -284,6 +284,8 @@ data:
         - gawk
         - libmetalink
         - isl
+        - rhash
+        - openldap
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -562,6 +564,8 @@ data:
       - gawk
       - libmetalink
       - isl
+      - rhash
+      - openldap
 
   components:
     rpms:
@@ -1222,6 +1226,12 @@ data:
       isl:
         rationale: ""
         ref: f27
+      rhash:
+        rationale: ""
+        ref: f27
+      openldap:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1443,3 +1453,5 @@ data:
         - gawk
         - libmetalink
         - isl
+        - rhash
+        - openldap
