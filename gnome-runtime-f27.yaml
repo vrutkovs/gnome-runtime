@@ -289,6 +289,7 @@ data:
         - libutempter
         - keyutils-libs
         - mpfr
+        - lua-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -572,6 +573,7 @@ data:
       - libutempter
       - keyutils-libs
       - mpfr
+      - lua-libs
 
   components:
     rpms:
@@ -1247,6 +1249,9 @@ data:
       mpfr:
         rationale: ""
         ref: f27
+      lua:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1473,3 +1478,4 @@ data:
         - libutempter
         - keyutils
         - mpfr
+        - lua
