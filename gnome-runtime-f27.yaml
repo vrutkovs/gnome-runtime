@@ -230,6 +230,7 @@ data:
         - pam
         - shared-mime-info
         - libcap
+        - libattr
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -454,6 +455,7 @@ data:
       - pam
       - shared-mime-info
       - libcap
+      - libattr
 
   components:
     rpms:
@@ -1003,6 +1005,9 @@ data:
       libcap:
         rationale: ""
         ref: f27
+      attr:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1187,3 +1192,4 @@ data:
         - pam
         - shared-mime-info
         - libcap
+        - attr
