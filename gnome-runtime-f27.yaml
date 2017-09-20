@@ -209,6 +209,7 @@ data:
         - systemd-libs
         - pkgconf
         - pkgconf-pkg-config
+        - libpkgconf
         - coreutils
         - gdbm
         - sed
@@ -450,6 +451,7 @@ data:
       - systemd-libs
       - pkgconf
       - pkgconf-pkg-config
+      - libpkgconf
       - coreutils
       - gdbm
       - sed
