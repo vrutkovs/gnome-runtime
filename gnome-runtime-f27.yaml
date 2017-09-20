@@ -305,6 +305,7 @@ data:
         - binutils
         - libssh2
         - publicsuffix-list-dafsa
+        - cpp
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -604,6 +605,7 @@ data:
       - binutils
       - libssh2
       - publicsuffix-list-dafsa
+      - cpp
 
   components:
     rpms:
@@ -1321,6 +1323,9 @@ data:
       publicsuffix-list:
         rationale: ""
         ref: f27
+      cpp:
+        rationale: ""
+        ref: f27
   xmd:
     fake-module:
       import:
@@ -1560,3 +1565,4 @@ data:
         - binutils
         - libssh2
         - publicsuffix-list
+        - cpp
