@@ -191,6 +191,7 @@ data:
         - xkeyboard-config
         - xml-common
         - libffi
+        - openssl-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -376,6 +377,7 @@ data:
       - xkeyboard-config
       - xml-common
       - libffi
+      - openssl-libs
 
   components:
     rpms:
