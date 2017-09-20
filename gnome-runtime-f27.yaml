@@ -259,6 +259,7 @@ data:
       - json-glib
       - kmod-libs
       - lcms2
+      - libxml2
       - libcroco
       - libcrypt-nss
       - libdatrie
@@ -918,6 +919,7 @@ data:
         - gcab
         - libgusb
         - icu
+        - libxml2
         - libidn
         - libjpeg-turbo
         - libmodman
@@ -1006,7 +1008,7 @@ data:
         - python-beaker
         - python-enum34
         - python-ipaddress
-        - libxml2
+        - python-libxml2
         - python-mako
         - python-tempita
         - qrencode
