@@ -206,6 +206,7 @@ data:
         - zlib
         - ca-certificates
         - systemd-libs
+        - pkgconf
         - pkgconf-pkg-config
         - coreutils
         - gdbm
@@ -427,6 +428,7 @@ data:
       - zlib
       - ca-certificates
       - systemd-libs
+      - pkgconf
       - pkgconf-pkg-config
       - coreutils
       - gdbm
