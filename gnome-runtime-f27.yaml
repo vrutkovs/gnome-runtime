@@ -199,6 +199,7 @@ data:
         - libffi
         - openssl-libs
         - zlib
+        - ca-certificates
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -393,6 +394,7 @@ data:
       - libffi
       - openssl-libs
       - zlib
+      - ca-certificates
 
   components:
     rpms:
@@ -876,6 +878,9 @@ data:
       zlib:
         rationale: ""
         ref: f27
+      ca-certificates:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1039,3 +1044,4 @@ data:
         - sgml-common
         - libffi
         - zlib
+        - ca-certificates
