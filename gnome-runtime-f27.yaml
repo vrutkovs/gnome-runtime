@@ -25,6 +25,7 @@ data:
         - bash
         - bubblewrap
         - cairo
+        - cairo-gobject
         - cmake
         - colord
         - cryptopp
@@ -216,6 +217,7 @@ data:
       - bash
       - bubblewrap
       - cairo
+      - cairo-gobject
       - cmake
       - colord
       - cryptopp
