@@ -269,6 +269,7 @@ data:
         - libcurl
         - libgudev
         - libfdisk
+        - libidn2
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -532,6 +533,7 @@ data:
       - libcurl
       - libgudev
       - libfdisk
+      - libidn2
 
   components:
     rpms:
@@ -1165,6 +1167,9 @@ data:
       libgudev:
         rationale: ""
         ref: f27
+      libidn2:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1377,3 +1382,4 @@ data:
         - gzip
         - curl
         - libgudev
+        - libidn2
