@@ -210,6 +210,7 @@ data:
         - sed
         - libxml2
         - popt
+        - readline
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -414,6 +415,7 @@ data:
       - gdbm
       - sed
       - popt
+      - readline
 
   components:
     rpms:
@@ -918,6 +920,9 @@ data:
       popt:
         rationale: ""
         ref: f27
+      readline:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1087,3 +1092,4 @@ data:
         - gdbm
         - sed
         - popt
+        - readline
