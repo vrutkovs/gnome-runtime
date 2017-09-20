@@ -249,6 +249,7 @@ data:
         - make
         - rpm
         - rpm-libs
+        - rpm-plugin-selinux
         - findutils
         - libblkid
         - cracklib
@@ -546,6 +547,7 @@ data:
       - make
       - rpm
       - rpm-libs
+      - rpm-plugin-selinux
       - findutils
       - libblkid
       - cracklib
