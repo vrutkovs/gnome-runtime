@@ -191,6 +191,7 @@ data:
         - setup
         - systemd
         - systemd-pam
+        - info
         - tzdata
         - xkeyboard-config
         - xml-common
@@ -382,6 +383,7 @@ data:
       - setup
       - systemd
       - systemd-pam
+      - info
       - tzdata
       - xkeyboard-config
       - xml-common
@@ -852,6 +854,9 @@ data:
       systemd:
         rationale: ""
         ref: f27
+      texinfo:
+        rationale: ""
+        ref: f27
       tzdata:
         rationale: ""
         ref: f27
@@ -1021,6 +1026,7 @@ data:
         - rest
         - setup
         - systemd
+        - texinfo
         - tzdata
         - xkeyboard-config
         - sgml-common
