@@ -236,6 +236,7 @@ data:
         - libgomp
         - libmount
         - libpwquality
+        - sqlite-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -466,6 +467,7 @@ data:
       - libgomp
       - libmount
       - libpwquality
+      - sqlite-libs
 
   components:
     rpms:
@@ -1024,6 +1026,9 @@ data:
       libpwquality:
         rationale: ""
         ref: f27
+      sqlite:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1211,3 +1216,4 @@ data:
         - libcap-ng
         - attr
         - libpwquality
+        - sqlite
