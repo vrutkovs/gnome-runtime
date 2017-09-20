@@ -49,6 +49,7 @@ data:
         - gdk-pixbuf2-modules
         - gettext-libs
         - libgcc
+        - libstdc++
         - adwaita-gtk2-theme
         - adwaita-cursor-theme
         - glib2
@@ -217,6 +218,7 @@ data:
         - bzip2-libs
         - xz-libs
         - colord-libs
+        - audit-libs
         - p11-kit
     buildroot:
       rpms:
@@ -261,6 +263,7 @@ data:
       - gdk-pixbuf2-modules
       - gettext-libs
       - libgcc
+      - libstdc++
       - adwaita-gtk2-theme
       - adwaita-cursor-theme
       - glib2
@@ -429,6 +432,7 @@ data:
       - bzip2-libs
       - xz-libs
       - colord-libs
+      - audit-libs
       - p11-kit
 
   components:
@@ -955,6 +959,9 @@ data:
       p11-kit:
         rationale: ""
         ref: f27
+      audit:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1131,3 +1138,4 @@ data:
         - bzip2
         - xz
         - p11-kit
+        - audit
