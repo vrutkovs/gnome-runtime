@@ -271,6 +271,7 @@ data:
         - libfdisk
         - libidn2
         - libcom_err
+        - libatomic_ops
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -536,6 +537,7 @@ data:
       - libfdisk
       - libidn2
       - libcom_err
+      - libatomic_ops
 
   components:
     rpms:
@@ -1175,6 +1177,9 @@ data:
       e2fsprogs:
         rationale: ""
         ref: f27
+      libatomic_ops:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1389,3 +1394,4 @@ data:
         - libgudev
         - libidn2
         - e2fsprogs
+        - libatomic_ops
