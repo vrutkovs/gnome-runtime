@@ -222,6 +222,7 @@ data:
         - p11-kit
         - libgcrypt
         - gnutls
+        - util-linux
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -438,6 +439,7 @@ data:
       - p11-kit
       - libgcrypt
       - gnutls
+      - util-linux
 
   components:
     rpms:
@@ -972,6 +974,9 @@ data:
       gnutls:
         rationale: ""
         ref: f27
+      util-linux:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1151,3 +1156,4 @@ data:
         - audit
         - libgcrypt
         - gnutls
+        - util-linux
