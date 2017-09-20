@@ -29,6 +29,7 @@ data:
         - colord
         - cryptopp
         - cryptsetup
+        - cryptsetup-libs
         - cups-libs
         - dbus
         - dbus-libs
@@ -218,6 +219,7 @@ data:
       - colord
       - cryptopp
       - cryptsetup
+      - cryptsetup-libs
       - cups-libs
       - dbus
       - dbus-libs
