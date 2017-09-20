@@ -220,6 +220,7 @@ data:
         - colord-libs
         - audit-libs
         - p11-kit
+        - libgcrypt
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -434,6 +435,7 @@ data:
       - colord-libs
       - audit-libs
       - p11-kit
+      - libgcrypt
 
   components:
     rpms:
@@ -962,6 +964,9 @@ data:
       audit:
         rationale: ""
         ref: f27
+      libgcrypt:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1139,3 +1144,4 @@ data:
         - xz
         - p11-kit
         - audit
+        - libgcrypt
