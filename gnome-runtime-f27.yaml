@@ -50,6 +50,7 @@ data:
         - gettext-libs
         - libgcc
         - adwaita-gtk2-theme
+        - adwaita-cursor-theme
         - glib2
         - glibc
         - glibc-common
@@ -253,6 +254,7 @@ data:
       - gettext-libs
       - libgcc
       - adwaita-gtk2-theme
+      - adwaita-cursor-theme
       - glib2
       - glibc
       - glibc-common
