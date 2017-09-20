@@ -249,6 +249,7 @@ data:
         - libgpg-error
         - libunistring
         - libtasn1
+        - libdb
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -492,6 +493,7 @@ data:
       - libgpg-error
       - libunistring
       - libtasn1
+      - libdb
 
   components:
     rpms:
@@ -1083,6 +1085,9 @@ data:
       libtasn1:
         rationale: ""
         ref: f27
+      libdb:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1281,3 +1286,4 @@ data:
         - libgpg-error
         - libunistring
         - libtasn1
+        - libdb
