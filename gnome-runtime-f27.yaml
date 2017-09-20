@@ -283,6 +283,7 @@ data:
         - polkit-libs
         - gawk
         - libmetalink
+        - isl
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -560,6 +561,7 @@ data:
       - polkit-libs
       - gawk
       - libmetalink
+      - isl
 
   components:
     rpms:
@@ -1217,6 +1219,9 @@ data:
       libmetalink:
         rationale: ""
         ref: f27
+      isl:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1437,3 +1442,4 @@ data:
         - polkit
         - gawk
         - libmetalink
+        - isl
