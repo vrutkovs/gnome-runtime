@@ -211,6 +211,7 @@ data:
         - libxml2
         - popt
         - readline
+        - crypto-policies
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -416,6 +417,7 @@ data:
       - sed
       - popt
       - readline
+      - crypto-policies
 
   components:
     rpms:
@@ -923,6 +925,9 @@ data:
       readline:
         rationale: ""
         ref: f27
+      crypto-policies:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1093,3 +1098,4 @@ data:
         - sed
         - popt
         - readline
+        - crypto-policies
