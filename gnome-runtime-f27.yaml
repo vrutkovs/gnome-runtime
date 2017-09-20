@@ -34,7 +34,7 @@ data:
         - dbus-libs
         - device-mapper
         - device-mapper-libs
-        - emacs-filesystem
+        - expat
         - emacs-filesystem
         - fedora-release
         - fedora-repos
@@ -223,7 +223,7 @@ data:
       - dbus-libs
       - device-mapper
       - device-mapper-libs
-      - emacs-filesystem
+      - expat
       - emacs-filesystem
       - fedora-release
       - fedora-repos
@@ -449,6 +449,9 @@ data:
         rationale: ""
         ref: f27
       dbus:
+        rationale: ""
+        ref: f27
+      expat:
         rationale: ""
         ref: f27
       emacs:
@@ -884,6 +887,7 @@ data:
         - dbus
         - lvm2
         - emacs
+        - expat
         - fedora-release
         - fedora-repos
         - filesystem
