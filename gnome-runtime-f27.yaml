@@ -254,6 +254,7 @@ data:
         - libdb
         - libdaemon
         - libarchive
+        - gc
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -502,6 +503,7 @@ data:
       - libdb
       - libdaemon
       - libarchive
+      - gc
 
   components:
     rpms:
@@ -1102,6 +1104,9 @@ data:
       libarchive:
         rationale: ""
         ref: f27
+      gc:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1303,3 +1308,4 @@ data:
         - libdb
         - libdaemon
         - libarchive
+        - gc
