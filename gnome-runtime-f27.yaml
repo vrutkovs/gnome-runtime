@@ -231,7 +231,9 @@ data:
         - pam
         - shared-mime-info
         - libcap
+        - libcap-ng
         - libattr
+        - libgomp
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -457,7 +459,9 @@ data:
       - pam
       - shared-mime-info
       - libcap
+      - libcap-ng
       - libattr
+      - libgomp
 
   components:
     rpms:
@@ -1007,6 +1011,9 @@ data:
       libcap:
         rationale: ""
         ref: f27
+      libcap-ng:
+        rationale: ""
+        ref: f27
       attr:
         rationale: ""
         ref: f27
@@ -1194,4 +1201,5 @@ data:
         - pam
         - shared-mime-info
         - libcap
+        - libcap-ng
         - attr
