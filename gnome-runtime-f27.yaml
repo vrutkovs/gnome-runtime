@@ -217,6 +217,7 @@ data:
         - bzip2-libs
         - xz-libs
         - colord-libs
+        - p11-kit
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -428,6 +429,7 @@ data:
       - bzip2-libs
       - xz-libs
       - colord-libs
+      - p11-kit
 
   components:
     rpms:
@@ -950,7 +952,7 @@ data:
       xz:
         rationale: ""
         ref: f27
-      colord:
+      p11-kit:
         rationale: ""
         ref: f27
 
@@ -1128,4 +1130,4 @@ data:
         - grep
         - bzip2
         - xz
-        - colord
+        - p11-kit
