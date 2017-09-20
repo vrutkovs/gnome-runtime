@@ -263,6 +263,7 @@ data:
         - elfutils-libelf
         - chkconfig
         - libsemanage
+        - gzip
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -520,6 +521,7 @@ data:
       - elfutils-libelf
       - chkconfig
       - libsemanage
+      - gzip
 
   components:
     rpms:
@@ -1144,6 +1146,9 @@ data:
       libsemanage:
         rationale: ""
         ref: f27
+      gzip:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1353,3 +1358,4 @@ data:
         - elfutils
         - chkconfig
         - libsemanage
+        - gzip
