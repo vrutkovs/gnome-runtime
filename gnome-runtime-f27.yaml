@@ -258,6 +258,7 @@ data:
         - krb5-libs
         - color-filesystem
         - tar
+        - nettle
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -510,6 +511,7 @@ data:
       - krb5-libs
       - color-filesystem
       - tar
+      - nettle
 
   components:
     rpms:
@@ -1122,6 +1124,9 @@ data:
       tar:
         rationale: ""
         ref: f27
+      nettle:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1327,3 +1332,4 @@ data:
         - krb5
         - color-filesystem
         - tar
+        - nettle
