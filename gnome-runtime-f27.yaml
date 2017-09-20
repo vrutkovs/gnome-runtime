@@ -264,6 +264,7 @@ data:
         - chkconfig
         - libsemanage
         - gzip
+        - libcurl
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -522,6 +523,7 @@ data:
       - chkconfig
       - libsemanage
       - gzip
+      - libcurl
 
   components:
     rpms:
@@ -1149,6 +1151,9 @@ data:
       gzip:
         rationale: ""
         ref: f27
+      curl:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1359,3 +1364,4 @@ data:
         - chkconfig
         - libsemanage
         - gzip
+        - curl
