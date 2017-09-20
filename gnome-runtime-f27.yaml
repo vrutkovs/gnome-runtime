@@ -216,6 +216,7 @@ data:
         - grep
         - bzip2-libs
         - xz-libs
+        - colord-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -426,6 +427,7 @@ data:
       - grep
       - bzip2-libs
       - xz-libs
+      - colord-libs
 
   components:
     rpms:
@@ -948,6 +950,9 @@ data:
       xz:
         rationale: ""
         ref: f27
+      colord:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1123,3 +1128,4 @@ data:
         - grep
         - bzip2
         - xz
+        - colord
