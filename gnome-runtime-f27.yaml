@@ -267,6 +267,7 @@ data:
         - nettle
         - elfutils-libelf
         - elfutils-libs
+        - elfutils-default-yama-scope
         - chkconfig
         - libsemanage
         - gzip
@@ -542,6 +543,7 @@ data:
       - nettle
       - elfutils-libelf
       - elfutils-libs
+      - elfutils-default-yama-scope
       - chkconfig
       - libsemanage
       - gzip
