@@ -1,5 +1,10 @@
 {
         "runtime": "org.fedoraproject.GnomePlatform",
         "runtime-version": "27",
-        "sdk": "org.fedoraproject.GnomeSdk"
+        "sdk": "org.fedoraproject.GnomeSdk",
+        "cleanup-commands": [ "touch -d @0 /usr/share/fonts",
+                              "touch -d @0 /usr/share/fonts/*",
+                              "fc-cache -fs",
+                              "find / -type f -perm -4000 -exec chmod u-s {} \;"
+                            ]
 }
