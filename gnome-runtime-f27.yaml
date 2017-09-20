@@ -301,6 +301,7 @@ data:
         - nss
         - nss-util
         - binutils
+        - libssh2
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -596,6 +597,7 @@ data:
       - nss
       - nss-util
       - binutils
+      - libssh2
 
   components:
     rpms:
@@ -1304,6 +1306,9 @@ data:
       binutils:
         rationale: ""
         ref: f27
+      libssh2:
+        rationale: ""
+        ref: f27
   xmd:
     fake-module:
       import:
@@ -1540,3 +1545,4 @@ data:
         - nss
         - nss-util
         - binutils
+        - libssh2
