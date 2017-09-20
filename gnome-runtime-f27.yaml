@@ -237,6 +237,7 @@ data:
         - libmount
         - libpwquality
         - sqlite-libs
+        - lz4-libs
         - make
         - rpm
         - findutils
@@ -474,6 +475,7 @@ data:
       - libmount
       - libpwquality
       - sqlite-libs
+      - lz4-libs
       - make
       - rpm
       - findutils
@@ -1041,6 +1043,9 @@ data:
       sqlite:
         rationale: ""
         ref: f27
+      lz4:
+        rationale: ""
+        ref: f27
       make:
         rationale: ""
         ref: f27
@@ -1244,6 +1249,7 @@ data:
         - attr
         - libpwquality
         - sqlite
+        - lz4
         - make
         - rpm
         - findutils
