@@ -1061,7 +1061,6 @@ data:
         - python-beaker
         - python-enum34
         - python-ipaddress
-        - python-libxml2
         - python-mako
         - python-tempita
         - qrencode
