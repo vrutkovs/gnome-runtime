@@ -300,6 +300,7 @@ data:
         - libpsl
         - nss
         - nss-util
+        - binutils
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -594,6 +595,7 @@ data:
       - libpsl
       - nss
       - nss-util
+      - binutils
 
   components:
     rpms:
@@ -1299,7 +1301,9 @@ data:
       nss-util:
         rationale: ""
         ref: f27
-
+      binutils:
+        rationale: ""
+        ref: f27
   xmd:
     fake-module:
       import:
@@ -1535,3 +1539,4 @@ data:
         - libpsl
         - nss
         - nss-util
+        - binutils
