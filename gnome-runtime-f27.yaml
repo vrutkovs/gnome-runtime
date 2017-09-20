@@ -290,6 +290,7 @@ data:
         - keyutils-libs
         - mpfr
         - lua-libs
+        - libuv
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -574,6 +575,7 @@ data:
       - keyutils-libs
       - mpfr
       - lua-libs
+      - libuv
 
   components:
     rpms:
@@ -1252,6 +1254,9 @@ data:
       lua:
         rationale: ""
         ref: f27
+      libuv:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1479,3 +1484,4 @@ data:
         - keyutils
         - mpfr
         - lua
+        - libuv
