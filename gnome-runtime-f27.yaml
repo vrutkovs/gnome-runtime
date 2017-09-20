@@ -204,6 +204,7 @@ data:
         - systemd-libs
         - pkgconf-pkg-config
         - coreutils
+        - gdbm
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -403,6 +404,7 @@ data:
       - systemd-libs
       - pkgconf-pkg-config
       - coreutils
+      - gdbm
 
   components:
     rpms:
@@ -898,6 +900,9 @@ data:
       coreutils:
         rationale: ""
         ref: f27
+      gdbm:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1065,3 +1070,4 @@ data:
         - ca-certificates
         - pkgconf
         - coreutils
+        - gdbm
