@@ -273,6 +273,7 @@ data:
         - libidn2
         - libcom_err
         - libatomic_ops
+        - jsoncpp
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -540,6 +541,7 @@ data:
       - libidn2
       - libcom_err
       - libatomic_ops
+      - jsoncpp
 
   components:
     rpms:
@@ -1182,6 +1184,9 @@ data:
       libatomic_ops:
         rationale: ""
         ref: f27
+      jsoncpp:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1397,3 +1402,4 @@ data:
         - libidn2
         - e2fsprogs
         - libatomic_ops
+        - libjsoncpp
