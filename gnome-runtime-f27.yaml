@@ -248,6 +248,7 @@ data:
         - shadow-utils
         - libgpg-error
         - libunistring
+        - libtasn1
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -490,6 +491,7 @@ data:
       - shadow-utils
       - libgpg-error
       - libunistring
+      - libtasn1
 
   components:
     rpms:
@@ -1078,6 +1080,9 @@ data:
       libunistring:
         rationale: ""
         ref: f27
+      libtasn1:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1275,3 +1280,4 @@ data:
         - shadow-utils
         - libgpg-error
         - libunistring
+        - libtasn1
