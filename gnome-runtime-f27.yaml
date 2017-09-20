@@ -213,6 +213,7 @@ data:
         - readline
         - crypto-policies
         - libacl
+        - grep
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -420,6 +421,7 @@ data:
       - readline
       - crypto-policies
       - libacl
+      - grep
 
   components:
     rpms:
@@ -933,6 +935,9 @@ data:
       acl:
         rationale: ""
         ref: f27
+      grep:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1105,3 +1110,4 @@ data:
         - readline
         - crypto-policies
         - acl
+        - grep
