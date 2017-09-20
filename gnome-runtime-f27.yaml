@@ -301,6 +301,7 @@ data:
         - libpsl
         - nss
         - nss-util
+        - nss-pem
         - binutils
         - libssh2
         - publicsuffix-list-dafsa
@@ -599,6 +600,7 @@ data:
       - libpsl
       - nss
       - nss-util
+      - nss-pem
       - binutils
       - libssh2
       - publicsuffix-list-dafsa
@@ -1307,6 +1309,9 @@ data:
       nss-util:
         rationale: ""
         ref: f27
+      nss-pem:
+        rationale: ""
+        ref: f27
       binutils:
         rationale: ""
         ref: f27
@@ -1551,6 +1556,7 @@ data:
         - libpsl
         - nss
         - nss-util
+        - nss-pem
         - binutils
         - libssh2
         - publicsuffix-list
