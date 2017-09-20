@@ -229,6 +229,7 @@ data:
         - libusbx
         - pam
         - shared-mime-info
+        - libcap
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -452,6 +453,7 @@ data:
       - libusbx
       - pam
       - shared-mime-info
+      - libcap
 
   components:
     rpms:
@@ -998,6 +1000,9 @@ data:
       shared-mime-info:
         rationale: ""
         ref: f27
+      libcap:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1181,3 +1186,4 @@ data:
         - libusbx
         - pam
         - shared-mime-info
+        - libcap
