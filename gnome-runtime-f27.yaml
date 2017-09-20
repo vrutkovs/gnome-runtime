@@ -29,48 +29,58 @@ data:
         - colord
         - cryptopp
         - cryptsetup
-        - cups
+        - cups-libs
         - dbus
-        - lvm2
-        - emacs
+        - dbus-libs
+        - device-mapper
+        - device-mapper-libs
+        - emacs-filesystem
+        - emacs-filesystem
         - fedora-release
         - fedora-repos
         - filesystem
         - fontconfig
-        - fontpackages
+        - fontpackages-filesystem
         - freetype
         - gdk-pixbuf2
-        - gettext
+        - gdk-pixbuf2-modules
+        - gettext-libs
         - glibc
+        - glibc-common
+        - glibc-langpack-en
         - glib-networking
         - gnome-desktop3
         - gnome-themes-standard
         - gobject-introspection
         - graphite2
-        - groff
+        - groff-base
         - gsettings-desktop-schemas
         - gtk2
         - gtk3
+        - gtk-update-icon-cache
         - harfbuzz
+        - harfbuzz-icu
         - hicolor-icon-theme
-        - iptables
-        - jasper
-        - jbigkit
+        - iptables-libs
+        - jasper-libs
+        - jbigkit-libs
         - json-glib
-        - kmod
+        - kmod-libs
         - lcms2
         - libcroco
+        - libcrypt-nss
         - libdatrie
         - libepoxy
         - libexif
-        - gcab
+        - libgcab1
         - libgusb
-        - icu
+        - libicu
         - libidn
         - libjpeg-turbo
         - libmodman
         - libpcap
         - libpeas
+        - libpeas-gtk
         - libpng
         - libproxy
         - librsvg2
@@ -82,8 +92,12 @@ data:
         - libthai
         - libtiff
         - libtool
-        - wayland
+        - libwayland-client
+        - libwayland-cursor
+        - libwayland-server
         - libX11
+        - libX11-common
+        - libX11-xcb
         - libXau
         - libxcb
         - libXcomposite
@@ -95,26 +109,36 @@ data:
         - libXi
         - libXinerama
         - libxkbcommon
+        - libxkbcommon-x11
         - libXrandr
         - libXrender
         - libXtst
         - m4
-        - mesa
-        - ncurses
-        - nss-softokn
+        - mesa-libwayland-egl
+        - mesa-libwayland-egl-devel
+        - ncurses-base
+        - ncurses-libs
+        - nss-softokn-freebl
         - openssl
         - pango
         - pcre
-        - perl
+        - pcre-cpp
+        - pcre-utf16
+        - pcre-utf32
         - perl-Carp
         - perl-constant
         - perl-Data-Dumper
         - perl-Encode
+        - perl-Errno
         - perl-Exporter
         - perl-File-Path
         - perl-File-Temp
         - perl-Getopt-Long
         - perl-HTTP-Tiny
+        - perl-interpreter
+        - perl-IO
+        - perl-libs
+        - perl-macros
         - perl-MIME-Base64
         - perl-parent
         - perl-PathTools
@@ -139,31 +163,33 @@ data:
         - pixman
         - pycryptopp
         - python2
-        - python-asn1crypto
-        - python-cffi
-        - python-cryptography
-        - python-idna
-        - python-markupsafe
-        - python-paste
-        - python-pip
-        - python-ply
-        - python-pycparser
-        - pyOpenSSL
-        - python-setuptools
-        - python-six
+        - python2-asn1crypto
+        - python2-cffi
+        - python2-cryptography
+        - python2-idna
+        - python2-libs
+        - python2-markupsafe
+        - python2-paste
+        - python2-pip
+        - python2-ply
+        - python2-pycparser
+        - python2-pyOpenSSL
+        - python2-setuptools
+        - python2-six
         - python-beaker
         - python-enum34
         - python-ipaddress
-        - libxml2
+        - python-libxml2
         - python-mako
         - python-tempita
-        - python-qrencode
+        - qrencode-libs
         - rest
         - setup
         - systemd
+        - systemd-pam
         - tzdata
         - xkeyboard-config
-        - sgml-common
+        - xml-common
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -187,48 +213,58 @@ data:
       - colord
       - cryptopp
       - cryptsetup
-      - cups
+      - cups-libs
       - dbus
-      - lvm2
-      - emacs
+      - dbus-libs
+      - device-mapper
+      - device-mapper-libs
+      - emacs-filesystem
+      - emacs-filesystem
       - fedora-release
       - fedora-repos
       - filesystem
       - fontconfig
-      - fontpackages
+      - fontpackages-filesystem
       - freetype
       - gdk-pixbuf2
-      - gettext
+      - gdk-pixbuf2-modules
+      - gettext-libs
       - glibc
+      - glibc-common
+      - glibc-langpack-en
       - glib-networking
       - gnome-desktop3
       - gnome-themes-standard
       - gobject-introspection
       - graphite2
-      - groff
+      - groff-base
       - gsettings-desktop-schemas
       - gtk2
       - gtk3
+      - gtk-update-icon-cache
       - harfbuzz
+      - harfbuzz-icu
       - hicolor-icon-theme
-      - iptables
-      - jasper
-      - jbigkit
+      - iptables-libs
+      - jasper-libs
+      - jbigkit-libs
       - json-glib
-      - kmod
+      - kmod-libs
       - lcms2
       - libcroco
+      - libcrypt-nss
       - libdatrie
       - libepoxy
       - libexif
-      - gcab
+      - libgcab1
       - libgusb
-      - icu
+      - libicu
       - libidn
       - libjpeg-turbo
       - libmodman
       - libpcap
       - libpeas
+      - libpeas-gtk
       - libpng
       - libproxy
       - librsvg2
@@ -240,8 +276,12 @@ data:
       - libthai
       - libtiff
       - libtool
-      - wayland
+      - libwayland-client
+      - libwayland-cursor
+      - libwayland-server
       - libX11
+      - libX11-common
+      - libX11-xcb
       - libXau
       - libxcb
       - libXcomposite
@@ -253,26 +293,36 @@ data:
       - libXi
       - libXinerama
       - libxkbcommon
+      - libxkbcommon-x11
       - libXrandr
       - libXrender
       - libXtst
       - m4
-      - mesa
-      - ncurses
-      - nss-softokn
+      - mesa-libwayland-egl
+      - mesa-libwayland-egl-devel
+      - ncurses-base
+      - ncurses-libs
+      - nss-softokn-freebl
       - openssl
       - pango
-      - perl
       - pcre
+      - pcre-cpp
+      - pcre-utf16
+      - pcre-utf32
       - perl-Carp
       - perl-constant
       - perl-Data-Dumper
       - perl-Encode
+      - perl-Errno
       - perl-Exporter
       - perl-File-Path
       - perl-File-Temp
       - perl-Getopt-Long
       - perl-HTTP-Tiny
+      - perl-interpreter
+      - perl-IO
+      - perl-libs
+      - perl-macros
       - perl-MIME-Base64
       - perl-parent
       - perl-PathTools
@@ -297,31 +347,33 @@ data:
       - pixman
       - pycryptopp
       - python2
-      - python-asn1crypto
-      - python-cffi
-      - python-cryptography
-      - python-idna
-      - python-markupsafe
-      - python-paste
-      - python-pip
-      - python-ply
-      - python-pycparser
-      - pyOpenSSL
-      - python-setuptools
-      - python-six
+      - python2-asn1crypto
+      - python2-cffi
+      - python2-cryptography
+      - python2-idna
+      - python2-libs
+      - python2-markupsafe
+      - python2-paste
+      - python2-pip
+      - python2-ply
+      - python2-pycparser
+      - python2-pyOpenSSL
+      - python2-setuptools
+      - python2-six
       - python-beaker
       - python-enum34
       - python-ipaddress
-      - libxml2
+      - python-libxml2
       - python-mako
       - python-tempita
-      - python-qrencode
+      - qrencode-libs
       - rest
       - setup
       - systemd
+      - systemd-pam
       - tzdata
       - xkeyboard-config
-      - sgml-common
+      - xml-common
 
   components:
     rpms:
