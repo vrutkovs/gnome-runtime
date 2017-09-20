@@ -266,6 +266,7 @@ data:
         - libsemanage
         - gzip
         - libcurl
+        - libgudev
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -526,6 +527,7 @@ data:
       - libsemanage
       - gzip
       - libcurl
+      - libgudev
 
   components:
     rpms:
@@ -1156,6 +1158,9 @@ data:
       curl:
         rationale: ""
         ref: f27
+      libgudev:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1367,3 +1372,4 @@ data:
         - libsemanage
         - gzip
         - curl
+        - libgudev
