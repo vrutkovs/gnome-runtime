@@ -262,6 +262,7 @@ data:
         - nettle
         - elfutils-libelf
         - chkconfig
+        - libsemanage
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -518,6 +519,7 @@ data:
       - nettle
       - elfutils-libelf
       - chkconfig
+      - libsemanage
 
   components:
     rpms:
@@ -1139,6 +1141,9 @@ data:
       chkconfig:
         rationale: ""
         ref: f27
+      libsemanage:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1347,3 +1352,4 @@ data:
         - nettle
         - elfutils
         - chkconfig
+        - libsemanage
