@@ -198,6 +198,7 @@ data:
         - xml-common
         - libffi
         - openssl-libs
+        - zlib
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -391,6 +392,7 @@ data:
       - xml-common
       - libffi
       - openssl-libs
+      - zlib
 
   components:
     rpms:
@@ -871,6 +873,9 @@ data:
       libffi:
         rationale: ""
         ref: f27
+      zlib:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1033,3 +1038,4 @@ data:
         - xkeyboard-config
         - sgml-common
         - libffi
+        - zlib
