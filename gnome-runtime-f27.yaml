@@ -45,6 +45,7 @@ data:
         - gdk-pixbuf2
         - gdk-pixbuf2-modules
         - gettext-libs
+        - glib2
         - glibc
         - glibc-common
         - glibc-langpack-en
@@ -231,6 +232,7 @@ data:
       - gdk-pixbuf2
       - gdk-pixbuf2-modules
       - gettext-libs
+      - glib2
       - glibc
       - glibc-common
       - glibc-langpack-en
@@ -469,6 +471,9 @@ data:
         rationale: ""
         ref: f27
       gettext:
+        rationale: ""
+        ref: f27
+      glib2:
         rationale: ""
         ref: f27
       glibc:
@@ -879,6 +884,7 @@ data:
         - freetype
         - gdk-pixbuf2
         - gettext
+        - glib2
         - glibc
         - glib-networking
         - gnome-desktop3
