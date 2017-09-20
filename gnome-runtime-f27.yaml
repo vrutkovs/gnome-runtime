@@ -245,6 +245,7 @@ data:
         - cracklib
         - gmp
         - shadow-utils
+        - libgpg-error
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -484,6 +485,7 @@ data:
       - cracklib
       - gmp
       - shadow-utils
+      - libgpg-error
 
   components:
     rpms:
@@ -1066,6 +1068,9 @@ data:
       shadow-utils:
         rationale: ""
         ref: f27
+      libgpg-error:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1261,3 +1266,4 @@ data:
         - cracklib
         - gmp
         - shadow-utils
+        - libgpg-error
