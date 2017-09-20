@@ -235,6 +235,7 @@ data:
         - libattr
         - libgomp
         - libmount
+        - libpwquality
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -464,6 +465,7 @@ data:
       - libattr
       - libgomp
       - libmount
+      - libpwquality
 
   components:
     rpms:
@@ -1019,6 +1021,9 @@ data:
       attr:
         rationale: ""
         ref: f27
+      libpwquality:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1205,3 +1210,4 @@ data:
         - libcap
         - libcap-ng
         - attr
+        - libpwquality
