@@ -104,6 +104,7 @@ data:
         - libwayland-client
         - libwayland-cursor
         - libwayland-server
+        - wayland-devel
         - libX11
         - libX11-common
         - libX11-xcb
@@ -350,6 +351,7 @@ data:
       - libwayland-client
       - libwayland-cursor
       - libwayland-server
+      - wayland-devel
       - libX11
       - libX11-common
       - libX11-xcb
