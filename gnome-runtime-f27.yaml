@@ -207,6 +207,7 @@ data:
         - coreutils
         - gdbm
         - sed
+        - libxml2
     buildroot:
       rpms:
       - flatpak-rpm-macros
