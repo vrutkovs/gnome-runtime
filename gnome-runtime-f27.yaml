@@ -292,6 +292,7 @@ data:
         - lua-libs
         - libuv
         - libnghttp2
+        - nspr
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -578,6 +579,7 @@ data:
       - lua-libs
       - libuv
       - libnghttp2
+      - nspr
 
   components:
     rpms:
@@ -1262,6 +1264,9 @@ data:
       nghttp2:
         rationale: ""
         ref: f27
+      nspr:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1491,3 +1496,4 @@ data:
         - lua
         - libuv
         - nghttp2
+        - nspr
