@@ -638,6 +638,9 @@ data:
       libXtst:
         rationale: ""
         ref: f27
+      lvm2:
+        rationale: ""
+        ref: f27
       m4:
         rationale: ""
         ref: f27
