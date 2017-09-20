@@ -244,6 +244,7 @@ data:
         - libblkid
         - cracklib
         - gmp
+        - shadow-utils
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -482,6 +483,7 @@ data:
       - libblkid
       - cracklib
       - gmp
+      - shadow-utils
 
   components:
     rpms:
@@ -1061,6 +1063,9 @@ data:
       gmp:
         rationale: ""
         ref: f27
+      shadow-utils:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1255,3 +1260,4 @@ data:
         - findutils
         - cracklib
         - gmp
+        - shadow-utils
