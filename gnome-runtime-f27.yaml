@@ -200,6 +200,7 @@ data:
         - openssl-libs
         - zlib
         - ca-certificates
+        - systemd-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -395,6 +396,7 @@ data:
       - openssl-libs
       - zlib
       - ca-certificates
+      - systemd-libs
 
   components:
     rpms:
