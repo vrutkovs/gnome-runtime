@@ -261,6 +261,7 @@ data:
         - tar
         - nettle
         - elfutils-libelf
+        - chkconfig
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -516,6 +517,7 @@ data:
       - tar
       - nettle
       - elfutils-libelf
+      - chkconfig
 
   components:
     rpms:
@@ -1134,6 +1136,9 @@ data:
       elfutils:
         rationale: ""
         ref: f27
+      chkconfig:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1341,3 +1346,4 @@ data:
         - tar
         - nettle
         - elfutils
+        - chkconfig
