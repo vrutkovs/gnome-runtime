@@ -124,6 +124,7 @@ data:
         - m4
         - mesa-libwayland-egl
         - mesa-libwayland-egl-devel
+        - ncurses
         - ncurses-base
         - ncurses-libs
         - nss-softokn-freebl
@@ -342,6 +343,7 @@ data:
       - m4
       - mesa-libwayland-egl
       - mesa-libwayland-egl-devel
+      - ncurses
       - ncurses-base
       - ncurses-libs
       - nss-softokn-freebl
