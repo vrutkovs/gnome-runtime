@@ -230,6 +230,7 @@ data:
         - libgcrypt
         - gnutls
         - util-linux
+        - libuuid
         - libusbx
         - pam
         - shared-mime-info
@@ -484,6 +485,7 @@ data:
       - libgcrypt
       - gnutls
       - util-linux
+      - libuuid
       - libusbx
       - pam
       - shared-mime-info
