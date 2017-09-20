@@ -293,6 +293,8 @@ data:
         - libuv
         - libnghttp2
         - nspr
+        - libverto
+        - libsigsegv
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -580,6 +582,8 @@ data:
       - libuv
       - libnghttp2
       - nspr
+      - libverto
+      - libsigsegv
 
   components:
     rpms:
@@ -1267,6 +1271,12 @@ data:
       nspr:
         rationale: ""
         ref: f27
+      libverto:
+        rationale: ""
+        ref: f27
+      libsigsegv:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1497,3 +1507,5 @@ data:
         - libuv
         - nghttp2
         - nspr
+        - libverto
+        - libsigsegv
