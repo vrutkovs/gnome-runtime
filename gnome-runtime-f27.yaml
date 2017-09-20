@@ -256,6 +256,7 @@ data:
         - libarchive
         - gc
         - krb5-libs
+        - color-filesystem
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -506,6 +507,7 @@ data:
       - libarchive
       - gc
       - krb5-libs
+      - color-filesystem
 
   components:
     rpms:
@@ -1112,6 +1114,9 @@ data:
       krb5:
         rationale: ""
         ref: f27
+      color-filesystem:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1315,3 +1320,4 @@ data:
         - libarchive
         - gc
         - krb5
+        - color-filesystem
