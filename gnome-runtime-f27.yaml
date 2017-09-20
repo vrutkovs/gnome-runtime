@@ -223,6 +223,7 @@ data:
         - colord-libs
         - audit-libs
         - p11-kit
+        - p11-kit-trust
         - libgcrypt
         - gnutls
         - util-linux
@@ -448,6 +449,7 @@ data:
       - colord-libs
       - audit-libs
       - p11-kit
+      - p11-kit-trust
       - libgcrypt
       - gnutls
       - util-linux
