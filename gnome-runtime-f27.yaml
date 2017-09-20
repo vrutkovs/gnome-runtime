@@ -215,6 +215,7 @@ data:
         - libacl
         - grep
         - bzip2-libs
+        - xz-libs
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -424,6 +425,7 @@ data:
       - libacl
       - grep
       - bzip2-libs
+      - xz-libs
 
   components:
     rpms:
@@ -943,6 +945,9 @@ data:
       bzip2:
         rationale: ""
         ref: f27
+      xz:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1117,3 +1122,4 @@ data:
         - acl
         - grep
         - bzip2
+        - xz
