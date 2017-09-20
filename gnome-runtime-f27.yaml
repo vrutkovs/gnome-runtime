@@ -297,6 +297,7 @@ data:
         - libverto
         - libsigsegv
         - libmpc
+        - libpsl
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -588,6 +589,7 @@ data:
       - libverto
       - libsigsegv
       - libmpc
+      - libpsl
 
   components:
     rpms:
@@ -1284,6 +1286,9 @@ data:
       libmpc:
         rationale: ""
         ref: f27
+      libpsl:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1517,3 +1522,4 @@ data:
         - libverto
         - libsigsegv
         - libmpc
+        - libpsl
