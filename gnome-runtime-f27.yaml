@@ -247,6 +247,7 @@ data:
         - gmp
         - shadow-utils
         - libgpg-error
+        - libunistring
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -488,6 +489,7 @@ data:
       - gmp
       - shadow-utils
       - libgpg-error
+      - libunistring
 
   components:
     rpms:
@@ -1073,6 +1075,9 @@ data:
       libgpg-error:
         rationale: ""
         ref: f27
+      libunistring:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1269,3 +1274,4 @@ data:
         - gmp
         - shadow-utils
         - libgpg-error
+        - libunistring
