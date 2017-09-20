@@ -299,6 +299,7 @@ data:
         - libmpc
         - libpsl
         - nss
+        - nss-util
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -592,6 +593,7 @@ data:
       - libmpc
       - libpsl
       - nss
+      - nss-util
 
   components:
     rpms:
@@ -1294,6 +1296,9 @@ data:
       nss:
         rationale: ""
         ref: f27
+      nss-util:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1529,3 +1534,4 @@ data:
         - libmpc
         - libpsl
         - nss
+        - nss-util
