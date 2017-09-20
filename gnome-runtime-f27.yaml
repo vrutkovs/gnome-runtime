@@ -241,6 +241,8 @@ data:
         - rpm
         - findutils
         - libblkid
+        - cracklib
+        - gmp
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -476,6 +478,8 @@ data:
       - rpm
       - findutils
       - libblkid
+      - cracklib
+      - gmp
 
   components:
     rpms:
@@ -1046,6 +1050,12 @@ data:
       findutils:
         rationale: ""
         ref: f27
+      cracklib:
+        rationale: ""
+        ref: f27
+      gmp:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1237,3 +1247,5 @@ data:
         - make
         - rpm
         - findutils
+        - cracklib
+        - gmp
