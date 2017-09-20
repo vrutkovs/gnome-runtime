@@ -59,6 +59,7 @@ data:
         - glibc-devel
         - glibc-common
         - glibc-langpack-en
+        - glibc-headers
         - glib-networking
         - gnome-desktop3
         - gnome-themes-standard
@@ -363,6 +364,7 @@ data:
       - glibc-devel
       - glibc-common
       - glibc-langpack-en
+      - glibc-headers
       - glib-networking
       - gnome-desktop3
       - gnome-themes-standard
