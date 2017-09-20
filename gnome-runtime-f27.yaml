@@ -253,6 +253,7 @@ data:
         - libtasn1
         - libdb
         - libdaemon
+        - libarchive
     buildroot:
       rpms:
       - flatpak-rpm-macros
@@ -500,6 +501,7 @@ data:
       - libtasn1
       - libdb
       - libdaemon
+      - libarchive
 
   components:
     rpms:
@@ -1097,6 +1099,9 @@ data:
       libdaemon:
         rationale: ""
         ref: f27
+      libarchive:
+        rationale: ""
+        ref: f27
 
   xmd:
     fake-module:
@@ -1297,3 +1302,4 @@ data:
         - libtasn1
         - libdb
         - libdaemon
+        - libarchive
